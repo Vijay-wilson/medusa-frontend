@@ -7,6 +7,7 @@ checkEnvVariables()
  */
 const nextConfig = {
   reactStrictMode: true,
+   distDir: "dist",
   logging: {
     fetches: {
       fullUrl: true,
@@ -20,6 +21,10 @@ const nextConfig = {
   },
   images: {
     remotePatterns: [
+      //   {
+      //   protocol: "http",
+      //   hostname: "localhost",
+      // },
       {
         protocol: "https",
         hostname: "admin.burgerspotcafeteria.com",
