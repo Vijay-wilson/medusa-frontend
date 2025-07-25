@@ -9,7 +9,7 @@ __turbopack_context__.s({
     "getBaseURL": (()=>getBaseURL)
 });
 const getBaseURL = ()=>{
-    return ("TURBOPACK compile-time value", "http://localhost:8000") || "https://localhost:8000";
+    return ("TURBOPACK compile-time value", "https://burgerspotcafeteria.com") || "https://localhost:8000";
 };
 }}),
 "[project]/src/app/layout.tsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
